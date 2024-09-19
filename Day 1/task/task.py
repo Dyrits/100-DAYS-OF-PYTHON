@@ -1,0 +1,5 @@
+print("Welcome to the application.")
+username = input("What is your name?\n")
+city = input("Which city did you grow up in?\n")
+pet_name = input("What is/was the name of your pet?\n")
+print("Your band name could be " + city + " " + pet_name + "!")
