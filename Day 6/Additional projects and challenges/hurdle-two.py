@@ -8,6 +8,10 @@ def turn_left():
 def move():
     return
 
+# This function is already defined in the Reeborg's World~
+def at_goal():
+    return
+
 def turn_right():
     for _ in range(3):
         turn_left()
@@ -26,5 +30,5 @@ def move_over_obstacle():
     move_and_turn_right()
     move_and_turn_left()
 
-for _ in range(6):
+while not at_goal():
     move_over_obstacle()
